@@ -1,0 +1,81 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav{
+    display: flex;
+    height: 92px;
+    background-color: #ffffff;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 0px;
+}
+
+#logo1{
+    height: 55px;
+    width: auto;
+}
+
+.guia{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.ul{
+    display: flex;
+    justify-content: flex-start;
+}
+
+li{
+    display: inline;
+    text-decoration: none;
+    justify-content: center;
+    width: 200px;
+    margin-right: 30px;
+}
+
+header{
+    height: 580px;
+    background-color: #243572;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    margin: 0px;
+    padding: 7%;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 68px;
+    text-align: center;
+}
+
+#gaming{
+    color: #F7EC6B;
+}
+
+#img{
+    width: 450px;
+    height: auto;
+}
+
+.img{
+    margin: 0px;
+    padding: 3%;
+}
