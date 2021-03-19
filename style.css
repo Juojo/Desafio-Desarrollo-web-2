@@ -79,3 +79,16 @@ h1{
     margin: 0px;
     padding: 3%;
 }
+
+.main1{
+    display: flex;
+    align-items: center;
+}
+
+#h1jugado{
+    color: #202020;
+}
+
+.descsolar{
+    width: 400px;
+}
