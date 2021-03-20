@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desarrollo web 2</title>
+    <link href="imag/header_img.png" rel="icon">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
-        <div class="logo">
-            <img id=logo1 src="imag/Logo1.png" alt="">
-        </div>
-
-        <div class="guia">
-            <ul>
-                <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">Lo más jugado</a>
-                </li>
-                <li>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">Recomendados</a>
-                </li>
-            </ul>
+        <div class="zona">
+            <div class="logo">
+                <img id=logo1 src="imag/Logo1.png" alt="">
+            </div>
+    
+            <div class="guia">
+                <ul>
+                    <li>
+                        <a class="ag" href="http://" target="_blank" rel="noopener noreferrer">Lo más jugado</a>
+                    </li>
+                    <li>
+                        <a class="ag" href="http://" target="_blank" rel="noopener noreferrer">Recomendados</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -40,9 +43,13 @@
 
     <main>
         <div class="main1">
-            <div class="lomasjugado"><h1 id="h1jugado">Lo más jugado</h1></div>
+                <div class="lmj">
+                    <div class="lomasjugado"><h1 id="h1jugado">Lo más jugado</h1></div>
+                </div>
             <div class="juego1">
-                <div id="imgsolar"><img src="imag/solar-ash.png" alt=""></div>
+                <div class="fotosolar">
+                    <img id="imgsolar" src="imag/solar-ash.png" alt="">
+                </div>
 
                 <div class="desc2">
                     <div class="descsolar"><p id="descTXT">Solar Ash es el segundo juego de Heart Machine, el estudio dirigido por el director Alx Prestan y los creadores del galardonado 
@@ -58,8 +65,33 @@
             </div>
         </div>
 
-        <div class="main2">
+        <div class="division"></div>
 
+        <div class="main2">
+            <div class="Reco">
+                <div class="recomendados"><h1 id="h1reco">Recomendados</h1></div>
+            </div>
+
+            <div class="container">
+                <div class="element">
+                    <img class="imgr" src="imag/lol.png" alt="">
+                    <h2 class="h2r">League of legends</h2>
+                    <p class="pr">League of Legends es un videojuego del género multijugador de arena de batalla en línea y deporte electrónico el cual fue desarrollado por Riot Games.</p>
+                    <button class="lol"><a href="http://" target="_blank" rel="noopener noreferrer">Ir al juego</a></button>
+                </div>
+                <div class="element">
+                    <img class="imgr" src="imag/among_us.png" alt="">
+                    <h2 class="h2r">Among Us</h2>
+                    <p class="pr">Among Us es un videojuego que tiene un grupo de jugadores a bordo de una nave espacial, cada uno de los cuales asume uno de los dos roles: compañeros o impostores.</p>
+                    <button class="among"><a href="http://" target="_blank" rel="noopener noreferrer">Ir al juego</a></button>
+                </div>
+                <div class="element">
+                    <img class="imgr" src="imag/brawhalla.png" alt="">
+                    <h2 class="h2r">Brawlhalla</h2>
+                    <p class="pr">Brawhalla es un videojuego gratuito de lucha desarrolado por Blue Mammoth Games y publicado por Ubisoft para múltiples plataformas y sistemas operativos</p>
+                    <button class="brawl"><a href="http://" target="_blank" rel="noopener noreferrer">Ir al juego</a></button> 
+                </div>
+            </div>
         </div>
     </main>
 
