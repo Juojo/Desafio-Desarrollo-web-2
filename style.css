@@ -71,6 +71,7 @@ li{
 
 header{
     height: 580px;
+    width: auto;
     background-color: #243572;
     display: flex;
     align-items: center;
@@ -402,7 +403,7 @@ footer{
     nav{
         align-items: center;
         justify-content: center;
-        width: 600px;
+        width: auto;
     }
 
     .ag{
@@ -411,17 +412,22 @@ footer{
 
     ul{
         padding-left: 10px;
+        width: 301px;
+    }
+
+    #lig{
+        margin-right: 0px;
     }
 
     .zona{
         justify-content: center;
-        width: 500px;
+        width: 340px;
     }
 
     .spaceH{
         flex-direction: column;
         display: flex;
-        height: 450px;
+        height: 460px;
     }
     
     #h1tit{
@@ -434,24 +440,73 @@ footer{
 
     header{
         height: 550px;
+        width: auto;
     }
 
     .juego1{
         flex-direction: column;
-        width: 300px;
+        width: 340px;
+        height: 580px;
+        justify-content: space-between;
+    }
+
+    .lmj{
+        width: 340px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .lomasjugado{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #h1jugado{
+        font-size: 30px;
     }
 
     #imgsolar{
-        width: 350px;
+        width: 340px;
         height: auto;
     }
 
     .fotosolar{
-        width: 350px;
-        height: auto;
+        width: 340px;
+        height: 190.95px;
+    }
+
+    .descsolar{
+        width: 340px;
+    }
+
+    #descTXT{
+        font-size: 17px;
+    }
+
+    .desc2{
+        margin-left: 0px;
+        height: 330px;
+    }
+
+    .division{
+        width: 340px;
     }
 
     .container{
+        flex-direction: column;
+    }
+
+    .Reco{
+        width: 340px;
+    }
+
+    .container{
+        width: 340px;
+    }
+
+    .zonaf{
+        width: 340px;
+        display: flex;
         flex-direction: column;
     }
 }
