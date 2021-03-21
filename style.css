@@ -11,6 +11,10 @@ a{
     font-size: 20px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .ag{
     color: black;
 }
@@ -322,13 +326,15 @@ footer{
 
 .zonaf{
     width: 1250px;
+    height: 200px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
 }
 
 #imglog2{
-    width: 250px;
+    width: 200px;
     height: auto;
 }
 
@@ -340,4 +346,53 @@ footer{
 
 .registro{
     margin: 0px;
+    height: 110px;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    margin-right: 120px;
 }
+
+#h2s{
+    color: #ffffff;
+    font-weight: inherit;
+    font-size: 20px;
+}
+
+.h2s{
+    margin-left: 0px;
+}
+
+.input{
+    outline-style: none;
+    border-style: none;
+    width: 350px;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    height: 27px;
+    padding-left: 10px;
+}
+
+.enviar{
+    background-color: #F7EC6B;
+    border-style: none;
+    outline-style: none;
+    padding: 4px;
+    width: 80px;
+    border-radius: 8px;
+    margin-left: 0px;
+    transition: 200ms ease-out;
+}
+
+#enviar{
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(32, 32, 32);
+}
+
+.enviar:hover{
+    transform: scale(1.04);
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.30);
+}
+
