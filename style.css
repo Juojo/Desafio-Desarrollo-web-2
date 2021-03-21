@@ -407,12 +407,16 @@ footer{
     }
 
     .ag{
-        font-size: 19px;
+        font-size: 17px;
     }
 
     ul{
         padding-left: 10px;
-        width: 301px;
+        width: 258pxpx;
+    }
+
+    li{
+        margin-right: 15px;
     }
 
     #lig{
@@ -490,6 +494,12 @@ footer{
 
     .division{
         width: 340px;
+        margin-top: 55px;
+        margin-bottom: 40px;
+    }
+
+    #h1reco{
+        font-size: 30px;
     }
 
     .container{
@@ -498,15 +508,36 @@ footer{
 
     .Reco{
         width: 340px;
+        justify-content: center;
+    }
+
+    .recomendados{
+        margin-bottom: 40px;
     }
 
     .container{
         width: 340px;
+        height: 1680px;
+    }
+
+    footer{
+        height: 280px;
+        width: auto;
     }
 
     .zonaf{
         width: 340px;
+        height: 210px;
         display: flex;
         flex-direction: column;
     }
+
+    .registro{
+        margin: 0px;
+    }
+
+    .input{
+        width: 280px;
+    }
+
 }
